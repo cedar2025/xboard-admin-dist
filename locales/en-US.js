@@ -1725,8 +1725,12 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
     "list": {
       "title": "Ticket List",
       "search_placeholder": "Search ticket subject or user email",
-      "no_tickets": "No pending tickets",
-      "no_search_results": "No matching tickets found"
+      "no_tickets": "No tickets",
+      "no_open_tickets": "No open tickets",
+      "no_closed_tickets": "No closed tickets",
+      "no_search_results": "No matching tickets found",
+      "collapse": "Collapse list",
+      "expand": "Expand list"
     }
   },
   "sidebar": {

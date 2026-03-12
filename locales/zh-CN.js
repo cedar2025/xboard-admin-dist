@@ -1736,8 +1736,12 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
     "list": {
       "title": "工单列表",
       "search_placeholder": "搜索工单标题或用户邮箱",
-      "no_tickets": "暂无待处理工单",
-      "no_search_results": "未找到匹配的工单"
+      "no_tickets": "暂无工单",
+      "no_open_tickets": "暂无处理中工单",
+      "no_closed_tickets": "暂无已关闭工单",
+      "no_search_results": "未找到匹配的工单",
+      "collapse": "收起列表",
+      "expand": "展开列表"
     }
   },
   "sidebar": {
