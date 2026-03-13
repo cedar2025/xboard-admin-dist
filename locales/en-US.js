@@ -1235,7 +1235,13 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
         "memory": "Memory Usage",
         "swap": "Swap Usage",
         "disk": "Disk Usage",
-        "lastUpdate": "Last Updated"
+        "lastUpdate": "Last Updated",
+        "metrics": {
+          "title": "Metrics",
+          "uptime": "Uptime",
+          "conns": "Connections",
+          "speed": "Speed"
+        }
       },
       "customId": "Custom ID",
       "originalId": "Original ID",
@@ -2205,7 +2211,18 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
         "strict": "Strict Mode",
         "relaxed": "Relaxed Mode",
         "placeholder": "Select device limit mode"
-      }
+      },
+      "server_websocket_enable": {
+        "title": "Enable WebSocket Communication",
+        "description": "When enabled, nodes will communicate with the panel via WebSocket for lower latency and more timely pushes.",
+        "supported_clients": "Node clients that currently support WebSocket communication: Xboard Node"
+      },
+      "server_websocket_url": {
+        "title": "WebSocket URL",
+        "description": "The WebSocket address nodes use to connect to the panel. Leave empty to use the site URL.",
+        "placeholder": "Leave empty to use site URL"
+      },
+      "saving": "Saving..."
     },
     "invite": {
       "title": "Invitation & Commission Settings",

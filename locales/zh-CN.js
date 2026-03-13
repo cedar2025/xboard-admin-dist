@@ -1197,7 +1197,13 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
         "memory": "内存使用",
         "swap": "交换区",
         "disk": "磁盘使用",
-        "lastUpdate": "最后更新"
+        "lastUpdate": "最后更新",
+        "metrics": {
+          "title": "运行指标",
+          "uptime": "运行时长",
+          "conns": "在线连接",
+          "speed": "实时速率"
+        }
       },
       "customId": "自定义ID",
       "originalId": "原始ID",
@@ -2784,6 +2790,16 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
         "strict": "严格模式",
         "relaxed": "宽松模式",
         "placeholder": "请选择设备限制模式"
+      },
+      "server_websocket_enable": {
+        "title": "启用 WebSocket 通信",
+        "description": "开启后节点将通过 WebSocket 与面板进行实时通信，延迟更低、推送更及时。",
+        "supported_clients": "目前支持 WebSocket 通信的节点端：Xboard Node"
+      },
+      "server_websocket_url": {
+        "title": "WebSocket 地址",
+        "description": "节点连接面板的 WebSocket 地址，留空则自动使用站点网址。",
+        "placeholder": "留空则使用站点网址"
       },
       "saving": "保存中...",
       "manage": {
