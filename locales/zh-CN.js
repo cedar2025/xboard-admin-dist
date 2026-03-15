@@ -1343,7 +1343,10 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
         },
         "padding_scheme": {
           "label": "填充方案",
-          "placeholder": "选择填充方案"
+          "placeholder": "选择填充方案",
+          "edit_btn": "编辑填充方案",
+          "configured": "已配置 {{count}} 条规则",
+          "not_configured": "未配置"
         }
       },
       "shadowsocks": {
@@ -1712,10 +1715,12 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
     "network_settings": {
       "edit_protocol": "编辑协议",
       "edit_protocol_config": "编辑协议配置",
+      "edit_padding_scheme": "编辑填充方案",
       "use_template": "使用{{template}}模板",
       "json_config_placeholder": "请输入JSON配置",
       "json_config_placeholder_with_template": "请输入JSON配置或选择上方模板",
       "validation": {
+        "must_be_array": "配置必须是一个JSON数组",
         "must_be_object": "配置必须是一个JSON对象",
         "invalid_json": "无效的JSON格式"
       },

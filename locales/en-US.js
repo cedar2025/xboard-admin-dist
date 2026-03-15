@@ -1373,8 +1373,9 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
           "allow_insecure": "Allow Insecure"
         },
         "padding_scheme": {
+          "description": "Each line represents a padding rule, format: stop=8, 0=30-30",
           "label": "Padding Scheme",
-          "placeholder": "Select padding scheme"
+          "placeholder": "Enter padding rules"
         }
       },
       "shadowsocks": {
