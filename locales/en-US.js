@@ -1364,6 +1364,19 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       "success": "Submitted successfully"
     },
     "dynamic_form": {
+      "anytls": {
+        "tls": {
+          "server_name": {
+            "label": "Server Name Indication (SNI)",
+            "placeholder": "Used for certificate verification when domain differs from node address"
+          },
+          "allow_insecure": "Allow Insecure"
+        },
+        "padding_scheme": {
+          "label": "Padding Scheme",
+          "placeholder": "Select padding scheme"
+        }
+      },
       "shadowsocks": {
         "cipher": {
           "label": "Encryption Method",

@@ -1333,6 +1333,19 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
       "success": "提交成功"
     },
     "dynamic_form": {
+      "anytls": {
+        "tls": {
+          "server_name": {
+            "label": "服务器名称指示(SNI)",
+            "placeholder": "当节点地址与证书不一致时用于证书验证"
+          },
+          "allow_insecure": "允许不安全连接"
+        },
+        "padding_scheme": {
+          "label": "填充方案",
+          "placeholder": "选择填充方案"
+        }
+      },
       "shadowsocks": {
         "cipher": {
           "label": "加密算法",
