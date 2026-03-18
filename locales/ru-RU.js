@@ -1229,6 +1229,11 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
       "add_node": "Добавить узел",
       "edit_node": "Изменить узел",
       "new_node": "Новый узел",
+      "type": {
+        "placeholder": "Выберите тип протокола",
+        "select_prompt": "Сначала выберите тип протокола",
+        "select_error": "Пожалуйста, выберите тип протокола"
+      },
       "name": {
         "label": "Название узла",
         "placeholder": "Пожалуйста, введите название узла",
@@ -1670,7 +1675,7 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
         }
       },
       "advanced": {
-        "trigger_label": "Расширенная конфигурация (TLS / Маршрутизация / Мультиплексирование)",
+        "trigger_label": "Расширенная конфигурация",
         "dialog_title": "Расширенная конфигурация протокола",
         "tls_tab": "TLS",
         "route_tab": "Маршрутизация",
