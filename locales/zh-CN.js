@@ -1377,6 +1377,26 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
           "description": "TCP Brutal 是双边加速算法，建议带宽设为机器实际带宽的 80%-90%，开启后 BBR 将失效。"
         }
       },
+      "proxy_protocol": {
+        "doc_link": "查看 HAProxy PROXY Protocol 规范",
+        "enabled": {
+          "label": "Proxy Protocol",
+          "description": "在 TCP 前置解析 PROXY 头以恢复真实客户端地址；仅当前方有发送 PROXY 头的反代/LB 时开启"
+        },
+        "trusted_proxies": {
+          "label": "可信代理 (CIDR / IP)",
+          "placeholder": "每行一个，例如：\n1.2.3.0/24\n5.6.7.8",
+          "description": "仅接受来自这些地址的 PROXY 头；请填写反代或 LB 的出口网段"
+        },
+        "accept_no_header": {
+          "label": "允许无 PROXY 头",
+          "description": "无头连接是否仍接受（通常仅在可信内网或调试时开启）"
+        },
+        "udp_enabled": {
+          "label": "UDP 使用 PROXY",
+          "description": "是否为 UDP 会话解析 PROXY（依后端实现而定）"
+        }
+      },
       "anytls": {
         "tls": {
           "server_name": {
@@ -1780,11 +1800,12 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
         }
       },
       "advanced": {
-        "trigger_label": "高级设置 (TLS / 路由 / 复用)",
+        "trigger_label": "高级设置 (TLS / 路由 / 复用 / Proxy Protocol)",
         "dialog_title": "高级协议配置",
         "tls_tab": "TLS",
         "route_tab": "路由",
-        "multiplex_tab": "多路复用"
+        "multiplex_tab": "多路复用",
+        "proxy_protocol_tab": "Proxy Protocol"
       }
     },
     "network_settings": {

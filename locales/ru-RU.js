@@ -1343,6 +1343,26 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
           "description": "TCP Brutal — двусторонний алгоритм ускорения. Установите пропускную способность 80%-90% от реальной. BBR будет отключён при включении."
         }
       },
+      "proxy_protocol": {
+        "doc_link": "Спецификация HAProxy PROXY Protocol",
+        "enabled": {
+          "label": "Proxy Protocol",
+          "description": "Разбор PROXY-заголовка в начале TCP для восстановления реального адреса клиента. Включайте только если upstream (LB/прокси) отправляет PROXY."
+        },
+        "trusted_proxies": {
+          "label": "Доверенные прокси (CIDR / IP)",
+          "placeholder": "По одному на строку, например:\n1.2.3.0/24\n5.6.7.8",
+          "description": "Доверять PROXY только от этих адресов; укажите диапазоны egress LB/прокси."
+        },
+        "accept_no_header": {
+          "label": "Принимать без PROXY-заголовка",
+          "description": "Разрешать соединения без PROXY (обычно только в доверенной сети или для отладки)."
+        },
+        "udp_enabled": {
+          "label": "PROXY для UDP",
+          "description": "Применять PROXY к UDP (зависит от поддержки backend)."
+        }
+      },
       "anytls": {
         "tls": {
           "server_name": {
@@ -1708,7 +1728,8 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
         "dialog_title": "Расширенная конфигурация протокола",
         "tls_tab": "TLS",
         "route_tab": "Маршрутизация",
-        "multiplex_tab": "Мультиплексирование"
+        "multiplex_tab": "Мультиплексирование",
+        "proxy_protocol_tab": "Proxy Protocol"
       }
     },
     "network_settings": {

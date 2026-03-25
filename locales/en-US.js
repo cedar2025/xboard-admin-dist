@@ -1400,6 +1400,26 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
           "description": "TCP Brutal is a bilateral acceleration algorithm. Set bandwidth to 80%-90% of actual capacity. BBR will be disabled when enabled."
         }
       },
+      "proxy_protocol": {
+        "doc_link": "HAProxy PROXY Protocol specification",
+        "enabled": {
+          "label": "Proxy Protocol",
+          "description": "Parse the PROXY header prefix on TCP to recover the real client address. Enable only when upstream (LB/reverse proxy) sends PROXY headers."
+        },
+        "trusted_proxies": {
+          "label": "Trusted proxies (CIDR / IP)",
+          "placeholder": "One per line, e.g.:\n1.2.3.0/24\n5.6.7.8",
+          "description": "Only PROXY headers from these addresses are trusted; use your LB/reverse proxy egress ranges."
+        },
+        "accept_no_header": {
+          "label": "Accept connections without PROXY header",
+          "description": "Whether to allow connections that do not send a PROXY header (typically only in trusted networks or for debugging)."
+        },
+        "udp_enabled": {
+          "label": "PROXY for UDP",
+          "description": "Whether to apply PROXY handling to UDP sessions (depends on backend support)."
+        }
+      },
       "anytls": {
         "tls": {
           "server_name": {
@@ -1771,11 +1791,12 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
         }
       },
       "advanced": {
-        "trigger_label": "Advanced Config (TLS / Routing / Mux)",
+        "trigger_label": "Advanced Config (TLS / Routing / Mux / Proxy Protocol)",
         "dialog_title": "Advanced Protocol Configuration",
         "tls_tab": "TLS",
         "route_tab": "Routing",
-        "multiplex_tab": "Multiplex"
+        "multiplex_tab": "Multiplex",
+        "proxy_protocol_tab": "Proxy Protocol"
       }
     },
     "network_settings": {
