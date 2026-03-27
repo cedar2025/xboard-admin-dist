@@ -1,243 +1,5 @@
 window.XBOARD_TRANSLATIONS = window.XBOARD_TRANSLATIONS || {};
 window.XBOARD_TRANSLATIONS['zh-CN'] = {
-  "search": {
-    "placeholder": "搜索菜单和功能...",
-    "title": "菜单导航",
-    "noResults": "未找到结果",
-    "shortcut": {
-      "label": "搜索",
-      "key": "⌘K"
-    }
-  },
-  "plugin": {
-    "title": "插件管理",
-    "description": "管理和配置系统插件",
-    "search": {
-      "placeholder": "搜索插件名称或描述..."
-    },
-    "type": {
-      "placeholder": "选择插件类型",
-      "all": "全部类型"
-    },
-    "tabs": {
-      "all": "所有插件",
-      "installed": "已安装",
-      "available": "可用"
-    },
-    "status": {
-      "enabled": "已启用",
-      "disabled": "已禁用",
-      "not_installed": "未安装",
-      "protected": "受保护",
-      "filter_placeholder": "安装状态",
-      "all": "全部状态",
-      "installed": "已安装",
-      "available": "可安装"
-    },
-    "button": {
-      "install": "安装",
-      "upgrade": "升级",
-      "config": "配置",
-      "enable": "启用",
-      "disable": "禁用",
-      "uninstall": "卸载",
-      "readme": "查看文档"
-    },
-    "upload": {
-      "button": "上传插件",
-      "title": "上传插件",
-      "description": "上传插件包 (.zip)",
-      "dragText": "拖拽插件包到此处，或",
-      "clickText": "浏览",
-      "supportText": "仅支持 .zip 格式文件",
-      "uploading": "上传中...",
-      "error": {
-        "format": "仅支持 .zip 格式文件"
-      }
-    },
-    "delete": {
-      "title": "删除插件",
-      "description": "确定要删除此插件吗？此操作无法撤销。",
-      "button": "删除"
-    },
-    "uninstall": {
-      "title": "卸载插件",
-      "description": "确定要卸载此插件吗？卸载后插件数据将被清除。",
-      "button": "卸载"
-    },
-    "upgrade": {
-      "title": "升级插件",
-      "description": "确定要升级此插件吗？升级过程中插件将暂时不可用。",
-      "button": "升级"
-    },
-    "config": {
-      "title": "配置",
-      "description": "修改插件配置",
-      "save": "保存",
-      "cancel": "取消"
-    },
-    "readme": {
-      "title": "插件文档"
-    },
-    "author": "作者",
-    "messages": {
-      "installSuccess": "插件安装成功",
-      "installError": "插件安装失败",
-      "upgradeSuccess": "插件升级成功",
-      "upgradeError": "插件升级失败",
-      "uninstallSuccess": "插件卸载成功",
-      "uninstallError": "插件卸载失败",
-      "enableSuccess": "插件启用成功",
-      "enableError": "插件启用失败",
-      "disableSuccess": "插件禁用成功",
-      "disableError": "插件禁用失败",
-      "configLoadError": "加载插件配置失败",
-      "configSaveSuccess": "配置保存成功",
-      "configSaveError": "配置保存失败",
-      "uploadSuccess": "插件上传成功",
-      "uploadError": "插件上传失败",
-      "deleteSuccess": "插件删除成功",
-      "deleteError": "插件删除失败"
-    }
-  },
-  "dashboard": {
-    "title": "仪表盘",
-    "stats": {
-      "newUsers": "新用户",
-      "totalScore": "总积分",
-      "monthlyUpload": "月上传",
-      "vsLastMonth": "对比上月",
-      "vsYesterday": "对比昨日",
-      "todayIncome": "今日收入",
-      "monthlyIncome": "月收入",
-      "totalIncome": "总收入",
-      "totalUsers": "总用户",
-      "activeUsers": "活跃用户: {{count}}",
-      "totalOrders": "总订单",
-      "revenue": "收入",
-      "todayRegistered": "今日注册",
-      "monthlyRegistered": "月注册",
-      "onlineUsers": "在线用户",
-      "pendingTickets": "待处理工单",
-      "hasPendingTickets": "有工单需要处理",
-      "noPendingTickets": "无待处理工单",
-      "pendingCommission": "待处理佣金",
-      "hasPendingCommission": "有佣金需要确认",
-      "noPendingCommission": "无待处理佣金",
-      "monthlyNewUsers": "月新增用户",
-      "monthlyDownload": "月下载",
-      "todayTraffic": "今日: {{value}}",
-      "activeUserTrend": "活跃用户趋势",
-      "realtimeUsers": "实时用户",
-      "todayPeak": "今日峰值",
-      "vsLastWeek": "对比上周"
-    },
-    "trafficRank": {
-      "nodeTrafficRank": "节点流量排行",
-      "userTrafficRank": "用户流量排行",
-      "today": "今天",
-      "last7days": "最近7天",
-      "last30days": "最近30天",
-      "customRange": "自定义范围",
-      "selectTimeRange": "选择时间范围",
-      "selectDateRange": "选择日期范围",
-      "currentTraffic": "当前流量",
-      "previousTraffic": "上期流量",
-      "changeRate": "变化率",
-      "recordTime": "记录时间"
-    },
-    "overview": {
-      "title": "收入概览",
-      "thisMonth": "本月",
-      "lastMonth": "上月",
-      "to": "至",
-      "selectTimeRange": "选择范围",
-      "selectDate": "选择日期",
-      "last7Days": "最近7天",
-      "last30Days": "最近30天",
-      "last90Days": "最近90天",
-      "last180Days": "最近180天",
-      "lastYear": "最近一年",
-      "customRange": "自定义范围",
-      "amount": "金额",
-      "count": "数量",
-      "transactions": "{{count}} 笔交易",
-      "orderAmount": "订单金额",
-      "commissionAmount": "佣金金额",
-      "orderCount": "订单数量",
-      "commissionCount": "佣金数量",
-      "totalIncome": "总收入",
-      "totalCommission": "总佣金",
-      "totalTransactions": "共 {{count}} 笔交易",
-      "avgOrderAmount": "平均订单金额:",
-      "commissionRate": "佣金比例:"
-    },
-    "queue": {
-      "title": "队列状态",
-      "jobDetails": "作业详情",
-      "status": {
-        "description": "当前队列运行状态",
-        "running": "运行状态",
-        "normal": "正常",
-        "abnormal": "异常",
-        "waitTime": "当前等待时间：{{seconds}} 秒",
-        "pending": "等待中",
-        "processing": "处理中",
-        "completed": "已完成",
-        "failed": "失败",
-        "cancelled": "已取消"
-      },
-      "details": {
-        "description": "队列处理详细信息",
-        "recentJobs": "近期任务数",
-        "statisticsPeriod": "统计时间范围：{{hours}} 小时",
-        "jobsPerMinute": "每分钟处理量",
-        "maxThroughput": "最高吞吐量：{{value}}",
-        "failedJobs7Days": "7日报错数量",
-        "retentionPeriod": "保留 {{hours}} 小时",
-        "longestRunningQueue": "最长运行队列",
-        "activeProcesses": "活跃进程",
-        "id": "作业ID",
-        "type": "作业类型",
-        "status": "状态",
-        "progress": "进度",
-        "createdAt": "创建时间",
-        "updatedAt": "更新时间",
-        "error": "错误信息",
-        "data": "作业数据",
-        "result": "结果",
-        "duration": "耗时",
-        "attempts": "重试次数",
-        "nextRetry": "下次重试",
-        "failedJobsDetailTitle": "失败任务详情",
-        "viewFailedJobs": "查看报错详情",
-        "jobDetailTitle": "任务详细信息",
-        "time": "时间",
-        "queue": "队列",
-        "name": "任务名称",
-        "exception": "异常信息",
-        "noFailedJobs": "暂无失败任务",
-        "connection": "连接类型",
-        "payload": "任务数据",
-        "viewDetail": "查看详情",
-        "action": "操作"
-      },
-      "actions": {
-        "retry": "重试",
-        "cancel": "取消",
-        "delete": "删除",
-        "viewDetails": "查看详情"
-      },
-      "empty": "队列中暂无作业",
-      "loading": "正在加载队列状态...",
-      "error": "加载队列状态失败"
-    },
-    "common": {
-      "refresh": "刷新",
-      "close": "关闭",
-      "pagination": "第 {{current}}/{{total}} 页，共 {{count}} 条"
-    }
-  },
   "user": {
     "manage": {
       "title": "用户管理",
@@ -626,6 +388,62 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
       "banned": "已封禁",
       "admin": "管理员",
       "staff": "员工"
+    }
+  },
+  "route": {
+    "title": "路由管理",
+    "description": "管理所有路由组，包括添加、删除、编辑等操作。",
+    "columns": {
+      "id": "组ID",
+      "remarks": "备注",
+      "action": "动作",
+      "actions": "操作",
+      "matchRules": "匹配{{count}}条规则",
+      "action_value": {
+        "title": "动作值",
+        "dns": "DNS: {{value}}",
+        "proxy": "转发 ({{value}})",
+        "block": "阻止访问",
+        "direct": "直连"
+      }
+    },
+    "actions": {
+      "dns": "指定DNS服务器进行解析",
+      "block": "禁止访问",
+      "direct": "直连",
+      "proxy": "转发"
+    },
+    "form": {
+      "add": "添加路由",
+      "edit": "编辑路由",
+      "create": "创建路由",
+      "remarks": "备注",
+      "remarksPlaceholder": "请输入备注",
+      "match": "匹配规则",
+      "matchPlaceholder": "example.com\n*.example.com",
+      "action": "动作",
+      "actionPlaceholder": "请选择动作",
+      "dns": "DNS服务器",
+      "dnsPlaceholder": "请输入DNS服务器",
+      "proxy": "转发标签 (Outbound Tag)",
+      "proxyPlaceholder": "请输入转发标签",
+      "cancel": "取消",
+      "submit": "提交",
+      "validation": {
+        "remarks": "请输入有效的备注"
+      }
+    },
+    "toolbar": {
+      "searchPlaceholder": "搜索路由...",
+      "reset": "重置"
+    },
+    "messages": {
+      "deleteConfirm": "确认删除",
+      "deleteDescription": "此操作将永久删除该路由组，删除后无法恢复。确定要继续吗？",
+      "deleteButton": "删除",
+      "deleteSuccess": "删除成功",
+      "createSuccess": "创建成功",
+      "updateSuccess": "更新成功"
     }
   },
   "knowledge": {
@@ -1017,158 +835,84 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
       "codesGenerated": "兑换码生成成功"
     }
   },
-  "route": {
-    "title": "路由管理",
-    "description": "管理所有路由组，包括添加、删除、编辑等操作。",
+  "group": {
+    "title": "权限组管理",
+    "description": "管理所有权限组，包括添加、删除、编辑等操作。",
     "columns": {
       "id": "组ID",
-      "remarks": "备注",
-      "action": "动作",
-      "actions": "操作",
-      "matchRules": "匹配{{count}}条规则",
-      "action_value": {
-        "title": "动作值",
-        "dns": "DNS: {{value}}",
-        "proxy": "转发 ({{value}})",
-        "block": "阻止访问",
-        "direct": "直连"
-      }
-    },
-    "actions": {
-      "dns": "指定DNS服务器进行解析",
-      "block": "禁止访问",
-      "direct": "直连",
-      "proxy": "转发"
+      "name": "组名称",
+      "usersCount": "用户数量",
+      "serverCount": "节点数量",
+      "actions": "操作"
     },
     "form": {
-      "add": "添加路由",
-      "edit": "编辑路由",
-      "create": "创建路由",
-      "remarks": "备注",
-      "remarksPlaceholder": "请输入备注",
-      "match": "匹配规则",
-      "matchPlaceholder": "example.com\n*.example.com",
-      "action": "动作",
-      "actionPlaceholder": "请选择动作",
-      "dns": "DNS服务器",
-      "dnsPlaceholder": "请输入DNS服务器",
-      "proxy": "转发标签 (Outbound Tag)",
-      "proxyPlaceholder": "请输入转发标签",
+      "add": "添加权限组",
+      "edit": "编辑权限组",
+      "create": "创建权限组",
+      "update": "更新",
+      "name": "组名称",
+      "namePlaceholder": "请输入权限组名称",
+      "nameDescription": "权限组名称用于标识不同的用户组，建议使用有意义的名称。",
       "cancel": "取消",
-      "submit": "提交",
-      "validation": {
-        "remarks": "请输入有效的备注"
-      }
+      "editDescription": "修改权限组信息，更新后会立即生效。",
+      "createDescription": "创建新的权限组，可以为不同的用户分配不同的权限。"
     },
     "toolbar": {
-      "searchPlaceholder": "搜索路由...",
+      "searchPlaceholder": "搜索权限组...",
       "reset": "重置"
     },
     "messages": {
       "deleteConfirm": "确认删除",
-      "deleteDescription": "此操作将永久删除该路由组，删除后无法恢复。确定要继续吗？",
+      "deleteDescription": "此操作将永久删除该权限组，删除后无法恢复。确定要继续吗？",
       "deleteButton": "删除",
-      "deleteSuccess": "删除成功",
       "createSuccess": "创建成功",
-      "updateSuccess": "更新成功"
+      "updateSuccess": "更新成功",
+      "nameValidation": {
+        "min": "组名至少需要2个字符",
+        "max": "组名不能超过50个字符",
+        "pattern": "组名只能包含字母、数字、中文、下划线和连字符"
+      }
     }
   },
-  "order": {
-    "title": "订单管理",
-    "description": "在这里可以查看用户订单，包括分配、查看、删除等操作。",
-    "table": {
-      "columns": {
-        "tradeNo": "订单号",
-        "type": "类型",
-        "plan": "订阅计划",
-        "period": "周期",
-        "amount": "支付金额",
-        "status": "订单状态",
-        "commission": "佣金金额",
-        "commissionStatus": "佣金状态",
-        "createdAt": "创建时间"
-      }
-    },
-    "type": {
-      "NEW": "新购",
-      "RENEWAL": "续费",
-      "UPGRADE": "升级",
-      "RESET_FLOW": "流量重置"
-    },
-    "period": {
-      "month_price": "月付",
-      "quarter_price": "季付",
-      "half_year_price": "半年付",
-      "year_price": "年付",
-      "two_year_price": "两年付",
-      "three_year_price": "三年付",
-      "onetime_price": "一次性",
-      "reset_price": "流量重置包"
-    },
-    "status": {
-      "PENDING": "待支付",
-      "PROCESSING": "开通中",
-      "CANCELLED": "已取消",
-      "COMPLETED": "已完成",
-      "DISCOUNTED": "已折抵",
-      "tooltip": "标记为[已支付]后将会由系统进行开通后并完成"
-    },
-    "commission": {
-      "PENDING": "待确认",
-      "PROCESSING": "发放中",
-      "VALID": "有效",
-      "INVALID": "无效"
-    },
-    "actions": {
-      "markAsPaid": "标记为已支付",
-      "cancel": "取消订单",
-      "openMenu": "打开菜单",
-      "reset": "重置"
-    },
-    "search": {
-      "placeholder": "搜索订单..."
-    },
-    "dialog": {
-      "title": "订单信息",
-      "basicInfo": "基本信息",
-      "amountInfo": "金额信息",
-      "timeInfo": "时间信息",
-      "commissionInfo": "佣金信息",
-      "commissionStatusActive": "有效",
-      "addOrder": "添加订单",
-      "assignOrder": "订单分配",
-      "fields": {
-        "userEmail": "用户邮箱",
-        "orderPeriod": "订单周期",
-        "subscriptionPlan": "订阅计划",
-        "callbackNo": "回调单号",
-        "paymentAmount": "支付金额",
-        "balancePayment": "余额支付",
-        "discountAmount": "优惠金额",
-        "refundAmount": "退回金额",
-        "deductionAmount": "折抵金额",
-        "createdAt": "创建时间",
-        "updatedAt": "更新时间",
-        "commissionStatus": "佣金状态",
-        "commissionAmount": "佣金金额",
-        "actualCommissionAmount": "实际佣金",
-        "inviteUser": "邀请人",
-        "inviteUserId": "邀请人ID"
-      },
-      "placeholders": {
-        "email": "请输入用户邮箱",
-        "plan": "请选择订阅计划",
-        "period": "请选择购买时长",
-        "amount": "请输入需要支付的金额"
-      },
-      "actions": {
-        "cancel": "取消",
-        "confirm": "确定"
-      },
-      "messages": {
-        "addSuccess": "添加成功"
-      }
-    }
+  "nav": {
+    "dashboard": "仪表盘",
+    "systemManagement": "系统管理",
+    "systemConfig": "系统配置",
+    "themeConfig": "主题配置",
+    "pluginManagement": "插件管理",
+    "noticeManagement": "公告管理",
+    "paymentConfig": "支付配置",
+    "knowledgeManagement": "知识库管理",
+    "nodeManagement": "节点管理",
+    "permissionGroupManagement": "权限组管理",
+    "routeManagement": "路由管理",
+    "subscriptionManagement": "订阅管理",
+    "planManagement": "套餐管理",
+    "orderManagement": "订单管理",
+    "couponManagement": "优惠券管理",
+    "giftCardManagement": "礼品卡管理",
+    "userManagement": "用户管理",
+    "ticketManagement": "工单管理",
+    "trafficResetLogs": "流量重置日志"
+  },
+  "sidebar": {
+    "dashboard": "仪表盘",
+    "systemManagement": "系统管理",
+    "systemConfig": "系统配置",
+    "pluginManagement": "插件管理",
+    "themeConfig": "主题配置",
+    "noticeManagement": "公告管理",
+    "paymentConfig": "支付配置",
+    "knowledgeManagement": "知识库管理",
+    "nodeManagement": "节点管理",
+    "permissionGroupManagement": "权限组管理",
+    "routeManagement": "路由管理",
+    "subscriptionManagement": "订阅管理",
+    "planManagement": "套餐管理",
+    "orderManagement": "订单管理",
+    "couponManagement": "优惠券管理",
+    "userManagement": "用户管理",
+    "ticketManagement": "工单管理"
   },
   "server": {
     "manage": {
@@ -1808,188 +1552,6 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
       "confirm": "确定"
     }
   },
-  "auth": {
-    "signIn": {
-      "title": "登录",
-      "description": "请输入您的邮箱和密码登录系统",
-      "email": "邮箱地址",
-      "emailPlaceholder": "name@example.com",
-      "password": "密码",
-      "passwordPlaceholder": "请输入密码",
-      "forgotPassword": "忘记密码？",
-      "submit": "登录",
-      "rememberMe": "记住我",
-      "resetPassword": {
-        "title": "重置密码",
-        "description": "在站点目录下执行以下命令找回密码",
-        "command": "php artisan reset:password 管理员邮箱"
-      },
-      "validation": {
-        "emailRequired": "请输入邮箱地址",
-        "emailInvalid": "邮箱地址格式不正确",
-        "passwordRequired": "请输入密码",
-        "passwordLength": "密码长度至少为7个字符"
-      }
-    }
-  },
-  "ticket": {
-    "title": "工单管理",
-    "description": "在这里可以查看用户工单，包括查看、回复、关闭等操作。",
-    "columns": {
-      "id": "工单号",
-      "subject": "主题",
-      "level": "优先级",
-      "status": "状态",
-      "updated_at": "最后更新",
-      "created_at": "创建时间",
-      "actions": "操作"
-    },
-    "status": {
-      "closed": "已关闭",
-      "replied": "已回复",
-      "pending": "待回复",
-      "processing": "处理中"
-    },
-    "level": {
-      "low": "低优先",
-      "medium": "中优先",
-      "high": "高优先"
-    },
-    "filter": {
-      "placeholder": "搜索{field}...",
-      "no_results": "未找到结果",
-      "selected": "已选择 {count} 项",
-      "clear": "清除筛选"
-    },
-    "actions": {
-      "view_details": "查看详情",
-      "close_ticket": "关闭工单",
-      "close_confirm_title": "确认关闭工单",
-      "close_confirm_description": "确定要关闭这个工单吗？关闭后将无法继续回复。",
-      "close_confirm_button": "确认关闭",
-      "close_success": "工单已关闭",
-      "view_ticket": "查看工单"
-    },
-    "detail": {
-      "no_messages": "暂无消息记录",
-      "created_at": "创建于",
-      "user_info": "用户信息",
-      "traffic_records": "流量记录",
-      "order_records": "订单记录",
-      "input": {
-        "closed_placeholder": "工单已关闭",
-        "reply_placeholder": "输入回复内容...",
-        "sending": "发送中...",
-        "send": "发送"
-      }
-    },
-    "list": {
-      "title": "工单列表",
-      "search_placeholder": "搜索工单标题或用户邮箱",
-      "no_tickets": "暂无工单",
-      "no_open_tickets": "暂无处理中工单",
-      "no_closed_tickets": "暂无已关闭工单",
-      "no_search_results": "未找到匹配的工单",
-      "collapse": "收起列表",
-      "expand": "展开列表"
-    }
-  },
-  "sidebar": {
-    "dashboard": "仪表盘",
-    "systemManagement": "系统管理",
-    "systemConfig": "系统配置",
-    "pluginManagement": "插件管理",
-    "themeConfig": "主题配置",
-    "noticeManagement": "公告管理",
-    "paymentConfig": "支付配置",
-    "knowledgeManagement": "知识库管理",
-    "nodeManagement": "节点管理",
-    "permissionGroupManagement": "权限组管理",
-    "routeManagement": "路由管理",
-    "subscriptionManagement": "订阅管理",
-    "planManagement": "套餐管理",
-    "orderManagement": "订单管理",
-    "couponManagement": "优惠券管理",
-    "userManagement": "用户管理",
-    "ticketManagement": "工单管理"
-  },
-  "traffic": {
-    "trafficRecord": {
-      "title": "流量使用记录",
-      "time": "时间",
-      "upload": "上行流量",
-      "download": "下行流量",
-      "rate": "倍率",
-      "total": "总计",
-      "noRecords": "暂无记录",
-      "perPage": "每页显示",
-      "records": "条记录",
-      "page": "第 {{current}} / {{total}} 页",
-      "multiplier": "{{value}}x"
-    }
-  },
-  "notice": {
-    "title": "公告管理",
-    "description": "在这里可以配置公告，包括添加、删除、编辑等操作。",
-    "table": {
-      "columns": {
-        "id": "ID",
-        "show": "显示状态",
-        "title": "标题",
-        "actions": "操作"
-      },
-      "toolbar": {
-        "search": "搜索公告标题...",
-        "reset": "重置",
-        "sort": {
-          "edit": "编辑排序",
-          "save": "保存排序"
-        }
-      },
-      "actions": {
-        "edit": "编辑",
-        "delete": {
-          "title": "删除确认",
-          "description": "确定要删除该条公告吗？此操作无法撤销。",
-          "success": "删除成功"
-        }
-      }
-    },
-    "form": {
-      "add": {
-        "title": "添加公告",
-        "button": "添加公告"
-      },
-      "edit": {
-        "title": "编辑公告"
-      },
-      "fields": {
-        "title": {
-          "label": "标题",
-          "placeholder": "请输入公告标题"
-        },
-        "content": {
-          "label": "公告内容"
-        },
-        "img_url": {
-          "label": "公告背景",
-          "placeholder": "请输入公告背景图片URL"
-        },
-        "show": {
-          "label": "显示"
-        },
-        "tags": {
-          "label": "节点标签",
-          "placeholder": "输入后回车添加标签"
-        }
-      },
-      "buttons": {
-        "cancel": "取消",
-        "submit": "提交",
-        "success": "提交成功"
-      }
-    }
-  },
   "common": {
     "loading": "加载中...",
     "error": "错误",
@@ -2070,283 +1632,67 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
       "unknownException": "未知异常"
     }
   },
-  "group": {
-    "title": "权限组管理",
-    "description": "管理所有权限组，包括添加、删除、编辑等操作。",
-    "columns": {
-      "id": "组ID",
-      "name": "组名称",
-      "usersCount": "用户数量",
-      "serverCount": "节点数量",
-      "actions": "操作"
-    },
-    "form": {
-      "add": "添加权限组",
-      "edit": "编辑权限组",
-      "create": "创建权限组",
-      "update": "更新",
-      "name": "组名称",
-      "namePlaceholder": "请输入权限组名称",
-      "nameDescription": "权限组名称用于标识不同的用户组，建议使用有意义的名称。",
-      "cancel": "取消",
-      "editDescription": "修改权限组信息，更新后会立即生效。",
-      "createDescription": "创建新的权限组，可以为不同的用户分配不同的权限。"
-    },
-    "toolbar": {
-      "searchPlaceholder": "搜索权限组...",
-      "reset": "重置"
-    },
-    "messages": {
-      "deleteConfirm": "确认删除",
-      "deleteDescription": "此操作将永久删除该权限组，删除后无法恢复。确定要继续吗？",
-      "deleteButton": "删除",
-      "createSuccess": "创建成功",
-      "updateSuccess": "更新成功",
-      "nameValidation": {
-        "min": "组名至少需要2个字符",
-        "max": "组名不能超过50个字符",
-        "pattern": "组名只能包含字母、数字、中文、下划线和连字符"
-      }
-    }
-  },
-  "payment": {
-    "title": "支付配置",
-    "description": "在这里可以配置支付方式，包括支付宝、微信等。",
+  "notice": {
+    "title": "公告管理",
+    "description": "在这里可以配置公告，包括添加、删除、编辑等操作。",
     "table": {
       "columns": {
         "id": "ID",
-        "enable": "启用",
-        "name": "显示名称",
-        "payment": "支付接口",
-        "notify_url": "通知地址",
-        "notify_url_tooltip": "支付网关将会把数据通知到本地址，请通过防火墙放行本地址。",
+        "show": "显示状态",
+        "title": "标题",
         "actions": "操作"
+      },
+      "toolbar": {
+        "search": "搜索公告标题...",
+        "reset": "重置",
+        "sort": {
+          "edit": "编辑排序",
+          "save": "保存排序"
+        }
       },
       "actions": {
         "edit": "编辑",
         "delete": {
           "title": "删除确认",
-          "description": "确定要删除该支付方式吗？此操作无法撤销。",
+          "description": "确定要删除该条公告吗？此操作无法撤销。",
           "success": "删除成功"
-        }
-      },
-      "toolbar": {
-        "search": "搜索支付方式...",
-        "reset": "重置",
-        "sort": {
-          "hint": "拖拽支付方式进行排序，完成后点击保存",
-          "save": "保存排序",
-          "edit": "编辑排序"
         }
       }
     },
     "form": {
       "add": {
-        "button": "添加支付方式",
-        "title": "添加支付方式"
+        "title": "添加公告",
+        "button": "添加公告"
       },
       "edit": {
-        "title": "编辑支付方式"
+        "title": "编辑公告"
       },
       "fields": {
-        "name": {
-          "label": "显示名称",
-          "placeholder": "请输入支付名称",
-          "description": "用于前端显示"
+        "title": {
+          "label": "标题",
+          "placeholder": "请输入公告标题"
         },
-        "icon": {
-          "label": "图标URL",
-          "placeholder": "https://example.com/icon.svg",
-          "description": "用于前端显示的图标地址"
+        "content": {
+          "label": "公告内容"
         },
-        "notify_domain": {
-          "label": "通知域名",
-          "placeholder": "https://example.com",
-          "description": "网关通知将发送到该域名"
+        "img_url": {
+          "label": "公告背景",
+          "placeholder": "请输入公告背景图片URL"
         },
-        "handling_fee_percent": {
-          "label": "百分比手续费(%)",
-          "placeholder": "0-100"
+        "show": {
+          "label": "显示"
         },
-        "handling_fee_fixed": {
-          "label": "固定手续费",
-          "placeholder": "0"
-        },
-        "payment": {
-          "label": "支付接口",
-          "placeholder": "请选择支付接口",
-          "description": "选择要使用的支付接口"
-        }
-      },
-      "validation": {
-        "name": {
-          "min": "名称至少需要2个字符",
-          "max": "名称不能超过30个字符"
-        },
-        "notify_domain": {
-          "url": "请输入有效的URL"
-        },
-        "payment": {
-          "required": "请选择支付接口"
+        "tags": {
+          "label": "节点标签",
+          "placeholder": "输入后回车添加标签"
         }
       },
       "buttons": {
         "cancel": "取消",
-        "submit": "提交"
-      },
-      "sections": {
-        "payment_config": "支付配置"
-      },
-      "messages": {
-        "success": "保存成功"
+        "submit": "提交",
+        "success": "提交成功"
       }
     }
-  },
-  "coupon": {
-    "title": "优惠券管理",
-    "description": "在这里可以查看优惠券，包括增加、查看、删除等操作。",
-    "table": {
-      "columns": {
-        "id": "ID",
-        "show": "启用",
-        "name": "卷名称",
-        "type": "类型",
-        "code": "卷码",
-        "limitUse": "剩余次数",
-        "limitUseWithUser": "可用次数/用户",
-        "validity": "有效期",
-        "actions": "操作"
-      },
-      "validity": {
-        "expired": "已过期{{days}}天",
-        "notStarted": "{{days}}天后开始",
-        "remaining": "剩余{{days}}天",
-        "startTime": "开始时间",
-        "endTime": "结束时间",
-        "unlimited": "无限次",
-        "noLimit": "无限制"
-      },
-      "actions": {
-        "edit": "编辑",
-        "delete": "删除",
-        "deleteConfirm": {
-          "title": "确认删除",
-          "description": "此操作将永久删除该优惠券，删除后无法恢复。确定要继续吗？",
-          "confirmText": "删除"
-        }
-      },
-      "toolbar": {
-        "search": "搜索优惠券...",
-        "type": "类型",
-        "reset": "重置",
-        "types": {
-          "1": "按金额优惠",
-          "2": "按比例优惠"
-        }
-      }
-    },
-    "form": {
-      "add": "添加优惠券",
-      "edit": "编辑优惠券",
-      "name": {
-        "label": "优惠券名称",
-        "placeholder": "请输入优惠券名称",
-        "required": "请输入优惠券名称"
-      },
-      "type": {
-        "label": "优惠券类型和值",
-        "placeholder": "优惠券类型"
-      },
-      "value": {
-        "placeholder": "请输入值"
-      },
-      "validity": {
-        "label": "优惠券有效期",
-        "to": "至",
-        "endTimeError": "结束时间必须晚于开始时间"
-      },
-      "limitUse": {
-        "label": "最大使用次数",
-        "placeholder": "限制最大使用次数，留空则不限制",
-        "description": "设置优惠券的总使用次数限制，留空表示不限制使用次数"
-      },
-      "limitUseWithUser": {
-        "label": "每个用户可使用次数",
-        "placeholder": "限制每个用户可使用次数，留空则不限制",
-        "description": "限制每个用户可使用该优惠券的次数，留空表示不限制单用户使用次数"
-      },
-      "limitPeriod": {
-        "label": "指定周期",
-        "placeholder": "限制指定周期可以使用优惠，留空则不限制",
-        "description": "选择可以使用优惠券的订阅周期，留空表示不限制使用周期",
-        "empty": "没有找到匹配的周期"
-      },
-      "limitPlan": {
-        "label": "指定订阅",
-        "placeholder": "限制指定订阅可以使用优惠，留空则不限制",
-        "description": "选择可以使用优惠券的订阅计划，留空表示不限制计划",
-        "empty": "没有找到匹配的订阅"
-      },
-      "code": {
-        "label": "自定义优惠码",
-        "placeholder": "自定义优惠码，留空则自动生成",
-        "description": "可以自定义优惠码，留空则系统自动生成"
-      },
-      "generateCount": {
-        "label": "批量生成数量",
-        "placeholder": "批量生成优惠码数量，留空则生成单个",
-        "description": "批量生成多个优惠码，留空则只生成单个优惠码"
-      },
-      "submit": {
-        "saving": "保存中...",
-        "save": "保存"
-      },
-      "error": {
-        "saveFailed": "保存优惠券失败"
-      },
-      "timeRange": {
-        "quickSet": "快速设置",
-        "presets": {
-          "1week": "1周",
-          "2weeks": "2周",
-          "1month": "1个月",
-          "3months": "3个月",
-          "6months": "6个月",
-          "1year": "1年"
-        }
-      }
-    },
-    "period": {
-      "monthly": "月",
-      "quarterly": "季度",
-      "half_yearly": "半年",
-      "yearly": "年",
-      "two_yearly": "两年",
-      "three_yearly": "三年",
-      "onetime": "一次性",
-      "reset_traffic": "重置流量"
-    }
-  },
-  "nav": {
-    "dashboard": "仪表盘",
-    "systemManagement": "系统管理",
-    "systemConfig": "系统配置",
-    "themeConfig": "主题配置",
-    "pluginManagement": "插件管理",
-    "noticeManagement": "公告管理",
-    "paymentConfig": "支付配置",
-    "knowledgeManagement": "知识库管理",
-    "nodeManagement": "节点管理",
-    "permissionGroupManagement": "权限组管理",
-    "routeManagement": "路由管理",
-    "subscriptionManagement": "订阅管理",
-    "planManagement": "套餐管理",
-    "orderManagement": "订单管理",
-    "couponManagement": "优惠券管理",
-    "giftCardManagement": "礼品卡管理",
-    "userManagement": "用户管理",
-    "ticketManagement": "工单管理",
-    "trafficResetLogs": "流量重置日志"
   },
   "settings": {
     "title": "系统设置",
@@ -2989,6 +2335,217 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
       }
     }
   },
+  "traffic": {
+    "trafficRecord": {
+      "title": "流量使用记录",
+      "time": "时间",
+      "upload": "上行流量",
+      "download": "下行流量",
+      "rate": "倍率",
+      "total": "总计",
+      "noRecords": "暂无记录",
+      "perPage": "每页显示",
+      "records": "条记录",
+      "page": "第 {{current}} / {{total}} 页",
+      "multiplier": "{{value}}x"
+    }
+  },
+  "ticket": {
+    "title": "工单管理",
+    "description": "在这里可以查看用户工单，包括查看、回复、关闭等操作。",
+    "columns": {
+      "id": "工单号",
+      "subject": "主题",
+      "level": "优先级",
+      "status": "状态",
+      "updated_at": "最后更新",
+      "created_at": "创建时间",
+      "actions": "操作"
+    },
+    "status": {
+      "closed": "已关闭",
+      "replied": "已回复",
+      "pending": "待回复",
+      "processing": "处理中"
+    },
+    "level": {
+      "low": "低优先",
+      "medium": "中优先",
+      "high": "高优先"
+    },
+    "filter": {
+      "placeholder": "搜索{field}...",
+      "no_results": "未找到结果",
+      "selected": "已选择 {count} 项",
+      "clear": "清除筛选"
+    },
+    "actions": {
+      "view_details": "查看详情",
+      "close_ticket": "关闭工单",
+      "close_confirm_title": "确认关闭工单",
+      "close_confirm_description": "确定要关闭这个工单吗？关闭后将无法继续回复。",
+      "close_confirm_button": "确认关闭",
+      "close_success": "工单已关闭",
+      "view_ticket": "查看工单"
+    },
+    "detail": {
+      "no_messages": "暂无消息记录",
+      "created_at": "创建于",
+      "user_info": "用户信息",
+      "traffic_records": "流量记录",
+      "order_records": "订单记录",
+      "input": {
+        "closed_placeholder": "工单已关闭",
+        "reply_placeholder": "输入回复内容...",
+        "sending": "发送中...",
+        "send": "发送"
+      }
+    },
+    "list": {
+      "title": "工单列表",
+      "search_placeholder": "搜索工单标题或用户邮箱",
+      "no_tickets": "暂无工单",
+      "no_open_tickets": "暂无处理中工单",
+      "no_closed_tickets": "暂无已关闭工单",
+      "no_search_results": "未找到匹配的工单",
+      "collapse": "收起列表",
+      "expand": "展开列表"
+    }
+  },
+  "coupon": {
+    "title": "优惠券管理",
+    "description": "在这里可以查看优惠券，包括增加、查看、删除等操作。",
+    "table": {
+      "columns": {
+        "id": "ID",
+        "show": "启用",
+        "name": "卷名称",
+        "type": "类型",
+        "code": "卷码",
+        "limitUse": "剩余次数",
+        "limitUseWithUser": "可用次数/用户",
+        "validity": "有效期",
+        "actions": "操作"
+      },
+      "validity": {
+        "expired": "已过期{{days}}天",
+        "notStarted": "{{days}}天后开始",
+        "remaining": "剩余{{days}}天",
+        "startTime": "开始时间",
+        "endTime": "结束时间",
+        "unlimited": "无限次",
+        "noLimit": "无限制"
+      },
+      "actions": {
+        "edit": "编辑",
+        "delete": "删除",
+        "deleteConfirm": {
+          "title": "确认删除",
+          "description": "此操作将永久删除该优惠券，删除后无法恢复。确定要继续吗？",
+          "confirmText": "删除"
+        }
+      },
+      "toolbar": {
+        "search": "搜索优惠券...",
+        "type": "类型",
+        "reset": "重置",
+        "types": {
+          "1": "按金额优惠",
+          "2": "按比例优惠"
+        }
+      }
+    },
+    "form": {
+      "add": "添加优惠券",
+      "edit": "编辑优惠券",
+      "name": {
+        "label": "优惠券名称",
+        "placeholder": "请输入优惠券名称",
+        "required": "请输入优惠券名称"
+      },
+      "type": {
+        "label": "优惠券类型和值",
+        "placeholder": "优惠券类型"
+      },
+      "value": {
+        "placeholder": "请输入值"
+      },
+      "validity": {
+        "label": "优惠券有效期",
+        "to": "至",
+        "endTimeError": "结束时间必须晚于开始时间"
+      },
+      "limitUse": {
+        "label": "最大使用次数",
+        "placeholder": "限制最大使用次数，留空则不限制",
+        "description": "设置优惠券的总使用次数限制，留空表示不限制使用次数"
+      },
+      "limitUseWithUser": {
+        "label": "每个用户可使用次数",
+        "placeholder": "限制每个用户可使用次数，留空则不限制",
+        "description": "限制每个用户可使用该优惠券的次数，留空表示不限制单用户使用次数"
+      },
+      "limitPeriod": {
+        "label": "指定周期",
+        "placeholder": "限制指定周期可以使用优惠，留空则不限制",
+        "description": "选择可以使用优惠券的订阅周期，留空表示不限制使用周期",
+        "empty": "没有找到匹配的周期"
+      },
+      "limitPlan": {
+        "label": "指定订阅",
+        "placeholder": "限制指定订阅可以使用优惠，留空则不限制",
+        "description": "选择可以使用优惠券的订阅计划，留空表示不限制计划",
+        "empty": "没有找到匹配的订阅"
+      },
+      "code": {
+        "label": "自定义优惠码",
+        "placeholder": "自定义优惠码，留空则自动生成",
+        "description": "可以自定义优惠码，留空则系统自动生成"
+      },
+      "generateCount": {
+        "label": "批量生成数量",
+        "placeholder": "批量生成优惠码数量，留空则生成单个",
+        "description": "批量生成多个优惠码，留空则只生成单个优惠码"
+      },
+      "submit": {
+        "saving": "保存中...",
+        "save": "保存"
+      },
+      "error": {
+        "saveFailed": "保存优惠券失败"
+      },
+      "timeRange": {
+        "quickSet": "快速设置",
+        "presets": {
+          "1week": "1周",
+          "2weeks": "2周",
+          "1month": "1个月",
+          "3months": "3个月",
+          "6months": "6个月",
+          "1year": "1年"
+        }
+      }
+    },
+    "period": {
+      "monthly": "月",
+      "quarterly": "季度",
+      "half_yearly": "半年",
+      "yearly": "年",
+      "two_yearly": "两年",
+      "three_yearly": "三年",
+      "onetime": "一次性",
+      "reset_traffic": "重置流量"
+    }
+  },
+  "search": {
+    "placeholder": "搜索菜单和功能...",
+    "title": "菜单导航",
+    "noResults": "未找到结果",
+    "shortcut": {
+      "label": "搜索",
+      "key": "⌘K"
+    }
+  },
   "subscribe": {
     "plan": {
       "title": "订阅套餐",
@@ -3176,6 +2733,449 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
       "cancel": "取消",
       "save": "保存",
       "success": "保存成功"
+    }
+  },
+  "auth": {
+    "signIn": {
+      "title": "登录",
+      "description": "请输入您的邮箱和密码登录系统",
+      "email": "邮箱地址",
+      "emailPlaceholder": "name@example.com",
+      "password": "密码",
+      "passwordPlaceholder": "请输入密码",
+      "forgotPassword": "忘记密码？",
+      "submit": "登录",
+      "rememberMe": "记住我",
+      "resetPassword": {
+        "title": "重置密码",
+        "description": "在站点目录下执行以下命令找回密码",
+        "command": "php artisan reset:password 管理员邮箱"
+      },
+      "validation": {
+        "emailRequired": "请输入邮箱地址",
+        "emailInvalid": "邮箱地址格式不正确",
+        "passwordRequired": "请输入密码",
+        "passwordLength": "密码长度至少为7个字符"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "仪表盘",
+    "stats": {
+      "newUsers": "新用户",
+      "totalScore": "总积分",
+      "monthlyUpload": "月上传",
+      "vsLastMonth": "对比上月",
+      "vsYesterday": "对比昨日",
+      "todayIncome": "今日收入",
+      "monthlyIncome": "月收入",
+      "totalIncome": "总收入",
+      "totalUsers": "总用户",
+      "activeUsers": "活跃用户: {{count}}",
+      "totalOrders": "总订单",
+      "revenue": "收入",
+      "todayRegistered": "今日注册",
+      "monthlyRegistered": "月注册",
+      "onlineUsers": "在线用户",
+      "pendingTickets": "待处理工单",
+      "hasPendingTickets": "有工单需要处理",
+      "noPendingTickets": "无待处理工单",
+      "pendingCommission": "待处理佣金",
+      "hasPendingCommission": "有佣金需要确认",
+      "noPendingCommission": "无待处理佣金",
+      "monthlyNewUsers": "月新增用户",
+      "monthlyDownload": "月下载",
+      "todayTraffic": "今日: {{value}}",
+      "activeUserTrend": "活跃用户趋势",
+      "realtimeUsers": "实时用户",
+      "todayPeak": "今日峰值",
+      "vsLastWeek": "对比上周"
+    },
+    "trafficRank": {
+      "nodeTrafficRank": "节点流量排行",
+      "userTrafficRank": "用户流量排行",
+      "today": "今天",
+      "last7days": "最近7天",
+      "last30days": "最近30天",
+      "customRange": "自定义范围",
+      "selectTimeRange": "选择时间范围",
+      "selectDateRange": "选择日期范围",
+      "currentTraffic": "当前流量",
+      "previousTraffic": "上期流量",
+      "changeRate": "变化率",
+      "recordTime": "记录时间"
+    },
+    "overview": {
+      "title": "收入概览",
+      "thisMonth": "本月",
+      "lastMonth": "上月",
+      "to": "至",
+      "selectTimeRange": "选择范围",
+      "selectDate": "选择日期",
+      "last7Days": "最近7天",
+      "last30Days": "最近30天",
+      "last90Days": "最近90天",
+      "last180Days": "最近180天",
+      "lastYear": "最近一年",
+      "customRange": "自定义范围",
+      "amount": "金额",
+      "count": "数量",
+      "transactions": "{{count}} 笔交易",
+      "orderAmount": "订单金额",
+      "commissionAmount": "佣金金额",
+      "orderCount": "订单数量",
+      "commissionCount": "佣金数量",
+      "totalIncome": "总收入",
+      "totalCommission": "总佣金",
+      "totalTransactions": "共 {{count}} 笔交易",
+      "avgOrderAmount": "平均订单金额:",
+      "commissionRate": "佣金比例:"
+    },
+    "queue": {
+      "title": "队列状态",
+      "jobDetails": "作业详情",
+      "status": {
+        "description": "当前队列运行状态",
+        "running": "运行状态",
+        "normal": "正常",
+        "abnormal": "异常",
+        "waitTime": "当前等待时间：{{seconds}} 秒",
+        "pending": "等待中",
+        "processing": "处理中",
+        "completed": "已完成",
+        "failed": "失败",
+        "cancelled": "已取消"
+      },
+      "details": {
+        "description": "队列处理详细信息",
+        "recentJobs": "近期任务数",
+        "statisticsPeriod": "统计时间范围：{{hours}} 小时",
+        "jobsPerMinute": "每分钟处理量",
+        "maxThroughput": "最高吞吐量：{{value}}",
+        "failedJobs7Days": "7日报错数量",
+        "retentionPeriod": "保留 {{hours}} 小时",
+        "longestRunningQueue": "最长运行队列",
+        "activeProcesses": "活跃进程",
+        "id": "作业ID",
+        "type": "作业类型",
+        "status": "状态",
+        "progress": "进度",
+        "createdAt": "创建时间",
+        "updatedAt": "更新时间",
+        "error": "错误信息",
+        "data": "作业数据",
+        "result": "结果",
+        "duration": "耗时",
+        "attempts": "重试次数",
+        "nextRetry": "下次重试",
+        "failedJobsDetailTitle": "失败任务详情",
+        "viewFailedJobs": "查看报错详情",
+        "jobDetailTitle": "任务详细信息",
+        "time": "时间",
+        "queue": "队列",
+        "name": "任务名称",
+        "exception": "异常信息",
+        "noFailedJobs": "暂无失败任务",
+        "connection": "连接类型",
+        "payload": "任务数据",
+        "viewDetail": "查看详情",
+        "action": "操作"
+      },
+      "actions": {
+        "retry": "重试",
+        "cancel": "取消",
+        "delete": "删除",
+        "viewDetails": "查看详情"
+      },
+      "empty": "队列中暂无作业",
+      "loading": "正在加载队列状态...",
+      "error": "加载队列状态失败"
+    },
+    "common": {
+      "refresh": "刷新",
+      "close": "关闭",
+      "pagination": "第 {{current}}/{{total}} 页，共 {{count}} 条"
+    }
+  },
+  "payment": {
+    "title": "支付配置",
+    "description": "在这里可以配置支付方式，包括支付宝、微信等。",
+    "table": {
+      "columns": {
+        "id": "ID",
+        "enable": "启用",
+        "name": "显示名称",
+        "payment": "支付接口",
+        "notify_url": "通知地址",
+        "notify_url_tooltip": "支付网关将会把数据通知到本地址，请通过防火墙放行本地址。",
+        "actions": "操作"
+      },
+      "actions": {
+        "edit": "编辑",
+        "delete": {
+          "title": "删除确认",
+          "description": "确定要删除该支付方式吗？此操作无法撤销。",
+          "success": "删除成功"
+        }
+      },
+      "toolbar": {
+        "search": "搜索支付方式...",
+        "reset": "重置",
+        "sort": {
+          "hint": "拖拽支付方式进行排序，完成后点击保存",
+          "save": "保存排序",
+          "edit": "编辑排序"
+        }
+      }
+    },
+    "form": {
+      "add": {
+        "button": "添加支付方式",
+        "title": "添加支付方式"
+      },
+      "edit": {
+        "title": "编辑支付方式"
+      },
+      "fields": {
+        "name": {
+          "label": "显示名称",
+          "placeholder": "请输入支付名称",
+          "description": "用于前端显示"
+        },
+        "icon": {
+          "label": "图标URL",
+          "placeholder": "https://example.com/icon.svg",
+          "description": "用于前端显示的图标地址"
+        },
+        "notify_domain": {
+          "label": "通知域名",
+          "placeholder": "https://example.com",
+          "description": "网关通知将发送到该域名"
+        },
+        "handling_fee_percent": {
+          "label": "百分比手续费(%)",
+          "placeholder": "0-100"
+        },
+        "handling_fee_fixed": {
+          "label": "固定手续费",
+          "placeholder": "0"
+        },
+        "payment": {
+          "label": "支付接口",
+          "placeholder": "请选择支付接口",
+          "description": "选择要使用的支付接口"
+        }
+      },
+      "validation": {
+        "name": {
+          "min": "名称至少需要2个字符",
+          "max": "名称不能超过30个字符"
+        },
+        "notify_domain": {
+          "url": "请输入有效的URL"
+        },
+        "payment": {
+          "required": "请选择支付接口"
+        }
+      },
+      "buttons": {
+        "cancel": "取消",
+        "submit": "提交"
+      },
+      "sections": {
+        "payment_config": "支付配置"
+      },
+      "messages": {
+        "success": "保存成功"
+      }
+    }
+  },
+  "order": {
+    "title": "订单管理",
+    "description": "在这里可以查看用户订单，包括分配、查看、删除等操作。",
+    "table": {
+      "columns": {
+        "tradeNo": "订单号",
+        "type": "类型",
+        "plan": "订阅计划",
+        "period": "周期",
+        "amount": "支付金额",
+        "status": "订单状态",
+        "commission": "佣金金额",
+        "commissionStatus": "佣金状态",
+        "createdAt": "创建时间"
+      }
+    },
+    "type": {
+      "NEW": "新购",
+      "RENEWAL": "续费",
+      "UPGRADE": "升级",
+      "RESET_FLOW": "流量重置"
+    },
+    "period": {
+      "month_price": "月付",
+      "quarter_price": "季付",
+      "half_year_price": "半年付",
+      "year_price": "年付",
+      "two_year_price": "两年付",
+      "three_year_price": "三年付",
+      "onetime_price": "一次性",
+      "reset_price": "流量重置包"
+    },
+    "status": {
+      "PENDING": "待支付",
+      "PROCESSING": "开通中",
+      "CANCELLED": "已取消",
+      "COMPLETED": "已完成",
+      "DISCOUNTED": "已折抵",
+      "tooltip": "标记为[已支付]后将会由系统进行开通后并完成"
+    },
+    "commission": {
+      "PENDING": "待确认",
+      "PROCESSING": "发放中",
+      "VALID": "有效",
+      "INVALID": "无效"
+    },
+    "actions": {
+      "markAsPaid": "标记为已支付",
+      "cancel": "取消订单",
+      "openMenu": "打开菜单",
+      "reset": "重置"
+    },
+    "search": {
+      "placeholder": "搜索订单..."
+    },
+    "dialog": {
+      "title": "订单信息",
+      "basicInfo": "基本信息",
+      "amountInfo": "金额信息",
+      "timeInfo": "时间信息",
+      "commissionInfo": "佣金信息",
+      "commissionStatusActive": "有效",
+      "addOrder": "添加订单",
+      "assignOrder": "订单分配",
+      "fields": {
+        "userEmail": "用户邮箱",
+        "orderPeriod": "订单周期",
+        "subscriptionPlan": "订阅计划",
+        "callbackNo": "回调单号",
+        "paymentAmount": "支付金额",
+        "balancePayment": "余额支付",
+        "discountAmount": "优惠金额",
+        "refundAmount": "退回金额",
+        "deductionAmount": "折抵金额",
+        "createdAt": "创建时间",
+        "updatedAt": "更新时间",
+        "commissionStatus": "佣金状态",
+        "commissionAmount": "佣金金额",
+        "actualCommissionAmount": "实际佣金",
+        "inviteUser": "邀请人",
+        "inviteUserId": "邀请人ID"
+      },
+      "placeholders": {
+        "email": "请输入用户邮箱",
+        "plan": "请选择订阅计划",
+        "period": "请选择购买时长",
+        "amount": "请输入需要支付的金额"
+      },
+      "actions": {
+        "cancel": "取消",
+        "confirm": "确定"
+      },
+      "messages": {
+        "addSuccess": "添加成功"
+      }
+    }
+  },
+  "plugin": {
+    "title": "插件管理",
+    "description": "管理和配置系统插件",
+    "search": {
+      "placeholder": "搜索插件名称或描述..."
+    },
+    "type": {
+      "placeholder": "选择插件类型",
+      "all": "全部类型"
+    },
+    "tabs": {
+      "all": "所有插件",
+      "installed": "已安装",
+      "available": "可用"
+    },
+    "status": {
+      "enabled": "已启用",
+      "disabled": "已禁用",
+      "not_installed": "未安装",
+      "protected": "受保护",
+      "filter_placeholder": "安装状态",
+      "all": "全部状态",
+      "installed": "已安装",
+      "available": "可安装"
+    },
+    "button": {
+      "install": "安装",
+      "upgrade": "升级",
+      "config": "配置",
+      "enable": "启用",
+      "disable": "禁用",
+      "uninstall": "卸载",
+      "readme": "查看文档"
+    },
+    "upload": {
+      "button": "上传插件",
+      "title": "上传插件",
+      "description": "上传插件包 (.zip)",
+      "dragText": "拖拽插件包到此处，或",
+      "clickText": "浏览",
+      "supportText": "仅支持 .zip 格式文件",
+      "uploading": "上传中...",
+      "error": {
+        "format": "仅支持 .zip 格式文件"
+      }
+    },
+    "delete": {
+      "title": "删除插件",
+      "description": "确定要删除此插件吗？此操作无法撤销。",
+      "button": "删除"
+    },
+    "uninstall": {
+      "title": "卸载插件",
+      "description": "确定要卸载此插件吗？卸载后插件数据将被清除。",
+      "button": "卸载"
+    },
+    "upgrade": {
+      "title": "升级插件",
+      "description": "确定要升级此插件吗？升级过程中插件将暂时不可用。",
+      "button": "升级"
+    },
+    "config": {
+      "title": "配置",
+      "description": "修改插件配置",
+      "save": "保存",
+      "cancel": "取消"
+    },
+    "readme": {
+      "title": "插件文档"
+    },
+    "author": "作者",
+    "messages": {
+      "installSuccess": "插件安装成功",
+      "installError": "插件安装失败",
+      "upgradeSuccess": "插件升级成功",
+      "upgradeError": "插件升级失败",
+      "uninstallSuccess": "插件卸载成功",
+      "uninstallError": "插件卸载失败",
+      "enableSuccess": "插件启用成功",
+      "enableError": "插件启用失败",
+      "disableSuccess": "插件禁用成功",
+      "disableError": "插件禁用失败",
+      "configLoadError": "加载插件配置失败",
+      "configSaveSuccess": "配置保存成功",
+      "configSaveError": "配置保存失败",
+      "uploadSuccess": "插件上传成功",
+      "uploadError": "插件上传失败",
+      "deleteSuccess": "插件删除成功",
+      "deleteError": "插件删除失败"
     }
   }
 };
