@@ -933,6 +933,13 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
         "title": "倍率",
         "tooltip": "流量扣费倍率"
       },
+      "traffic": {
+        "title": "流量使用",
+        "tooltip": "节点流量使用情况，显示已用流量和限制",
+        "total": "总流量",
+        "used": "已用",
+        "percentage": "使用率"
+      },
       "groups": {
         "title": "权限组",
         "tooltip": "可订阅到该节点的权限组",
@@ -977,6 +984,12 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
       "actions_dropdown": {
         "edit": "编辑",
         "copy": "复制",
+        "reset_traffic": {
+          "title": "确认重置流量",
+          "description": "此操作将清零该节点的上传和下载流量，并解除禁用状态。确定要继续吗？",
+          "confirm": "重置流量"
+        },
+        "reset_traffic_success": "流量重置成功",
         "delete": {
           "title": "确认删除",
           "description": "此操作将永久删除该节点，删除后无法恢复。确定要继续吗？",
@@ -990,11 +1003,30 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
       "search": "搜索节点...",
       "type": "类型",
       "reset": "重置",
+      "actions": "操作",
       "sort": {
         "tip": "拖拽节点进行排序，完成后点击保存",
         "edit": "编辑排序",
         "save": "保存排序"
-      }
+      },
+      "batch_delete": {
+        "menu": "删除节点",
+        "button": "删除 {{count}} 项",
+        "title": "确认批量删除",
+        "description": "确定要删除选中的 {{count}} 个节点吗？此操作不可恢复。",
+        "confirm": "确认删除"
+      },
+      "batch_delete_success": "成功删除 {{count}} 个节点",
+      "batch_delete_error": "批量删除失败",
+      "batch_reset_traffic": {
+        "menu": "重置流量",
+        "button": "重置 {{count}} 项流量",
+        "title": "确认批量重置流量",
+        "description": "确定要重置选中的 {{count}} 个节点的流量吗？此操作将清零流量并解除禁用状态。",
+        "confirm": "确认重置"
+      },
+      "batch_reset_traffic_success": "成功重置 {{count}} 个节点的流量",
+      "batch_reset_traffic_error": "批量重置流量失败"
     },
     "form": {
       "add_node": "添加节点",
@@ -1017,6 +1049,17 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
         "error_gte_zero": "基础倍率必须大于或等于0",
         "child_node_tooltip": "子节点的基础倍率继承自父节点，无法单独设置",
         "child_node_note": "子节点倍率继承自父节点"
+      },
+      "traffic_limit": {
+        "label": "流量限制",
+        "placeholder": "0 表示不限制",
+        "hint": "设置节点流量上限（单位：GB），0 表示不限制",
+        "error_numeric": "流量限制必须是数字",
+        "error_gte_zero": "流量限制必须大于或等于0"
+      },
+      "banned": {
+        "label": "禁用节点",
+        "description": "禁用后节点将不可用"
       },
       "dynamic_rate": {
         "section_title": "动态倍率配置",
@@ -1524,7 +1567,7 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
         }
       },
       "advanced": {
-        "trigger_label": "高级设置 (TLS / 路由 / 复用)",
+        "trigger_label": "高级设置",
         "dialog_title": "高级协议配置",
         "tls_tab": "TLS",
         "route_tab": "路由",

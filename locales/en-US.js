@@ -957,6 +957,13 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
         "title": "Rate",
         "tooltip": "Traffic billing rate"
       },
+      "traffic": {
+        "title": "Traffic Usage",
+        "tooltip": "Node traffic usage, showing used traffic and limit",
+        "total": "Total",
+        "used": "Used",
+        "percentage": "Usage"
+      },
       "groups": {
         "title": "Permission Groups",
         "tooltip": "Groups that can subscribe to this node",
@@ -993,6 +1000,12 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       "actions_dropdown": {
         "edit": "Edit",
         "copy": "Copy",
+        "reset_traffic": {
+          "title": "Confirm Reset Traffic",
+          "description": "This will reset the upload and download traffic to zero and unban the node. Are you sure you want to continue?",
+          "confirm": "Reset Traffic"
+        },
+        "reset_traffic_success": "Traffic reset successfully",
         "delete": {
           "title": "Confirm Delete",
           "description": "This action will permanently delete this node and cannot be undone. Are you sure you want to continue?",
@@ -1006,11 +1019,30 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       "search": "Search nodes...",
       "type": "Type",
       "reset": "Reset",
+      "actions": "Actions",
       "sort": {
         "tip": "Drag nodes to sort, then click save",
         "edit": "Edit Sort",
         "save": "Save Sort"
-      }
+      },
+      "batch_delete": {
+        "menu": "Delete nodes",
+        "button": "Delete {{count}} items",
+        "title": "Confirm Batch Delete",
+        "description": "Are you sure you want to delete the selected {{count}} nodes? This action cannot be undone.",
+        "confirm": "Confirm Delete"
+      },
+      "batch_delete_success": "Successfully deleted {{count}} nodes",
+      "batch_delete_error": "Batch delete failed",
+      "batch_reset_traffic": {
+        "menu": "Reset traffic",
+        "button": "Reset {{count}} traffic",
+        "title": "Confirm Batch Reset Traffic",
+        "description": "Are you sure you want to reset traffic for the selected {{count}} nodes? This will clear traffic and unban the nodes.",
+        "confirm": "Confirm Reset"
+      },
+      "batch_reset_traffic_success": "Successfully reset traffic for {{count}} nodes",
+      "batch_reset_traffic_error": "Batch reset traffic failed"
     },
     "form": {
       "add_node": "Add Node",
@@ -1033,6 +1065,17 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
         "error_gte_zero": "Base rate must be greater than or equal to 0",
         "child_node_tooltip": "Child node's base rate is inherited from parent node and cannot be set separately",
         "child_node_note": "Child node rate inherited from parent"
+      },
+      "traffic_limit": {
+        "label": "Traffic Limit",
+        "placeholder": "0 means no limit",
+        "hint": "Set node traffic limit (unit: GB), 0 means no limit",
+        "error_numeric": "Traffic limit must be a number",
+        "error_gte_zero": "Traffic limit must be greater than or equal to 0"
+      },
+      "banned": {
+        "label": "Disable Node",
+        "description": "Node will be unavailable when disabled"
       },
       "dynamic_rate": {
         "section_title": "Dynamic Rate Configuration",
@@ -1501,7 +1544,7 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
         }
       },
       "advanced": {
-        "trigger_label": "Advanced Config (TLS / Routing / Mux)",
+        "trigger_label": "Advanced Config",
         "dialog_title": "Advanced Protocol Configuration",
         "tls_tab": "TLS",
         "route_tab": "Routing",
