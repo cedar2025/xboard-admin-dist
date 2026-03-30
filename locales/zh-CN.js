@@ -1417,6 +1417,17 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
         "flow": {
           "label": "流控",
           "placeholder": "选择流控"
+        },
+        "encryption": {
+          "label": "VLESS Encryption",
+          "description": "启用 VLESS 加密",
+          "server_label": "decryption",
+          "server_placeholder": "./xray vlessenc 生成",
+          "server_description": "",
+          "client_label": "encryption",
+          "client_placeholder": "./xray vlessenc 生成",
+          "client_description": "",
+          "generate_hint": "./xray vlessenc 生成"
         }
       },
       "tuic": {

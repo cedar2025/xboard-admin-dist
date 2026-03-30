@@ -1332,6 +1332,17 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
         "flow": {
           "label": "Flow Control",
           "placeholder": "Select flow control"
+        },
+        "encryption": {
+          "label": "VLESS Encryption",
+          "description": "Enable VLESS encryption",
+          "server_label": "decryption",
+          "server_placeholder": "./xray vlessenc",
+          "server_description": "",
+          "client_label": "encryption",
+          "client_placeholder": "./xray vlessenc",
+          "client_description": "",
+          "generate_hint": "./xray vlessenc"
         }
       },
       "tuic": {
