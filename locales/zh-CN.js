@@ -148,11 +148,13 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
       "nodeShow": "可见",
       "nodeEnabled": "已激活",
       "loadTrend": "负载趋势",
+      "networkTrend": "网络速率",
       "noHistory": "暂无历史负载数据",
       "openNodeManage": "前往节点管理",
       "addNodeToServer": "新增节点到此服务器",
       "nodeCount": "{{count}} 个节点",
-      "nodeEnabledCount": "{{count}} 个已激活"
+      "nodeEnabledCount": "{{count}} 个已激活",
+      "toggleEnabledError": "切换节点状态失败"
     },
     "messages": {
       "createSuccess": "服务器创建成功",
@@ -871,6 +873,16 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
       },
       "batch_hide_success": "成功隐藏 {{count}} 个节点",
       "batch_hide_error": "批量隐藏失败",
+      "batch_enable": {
+        "menu": "启用节点"
+      },
+      "batch_enable_success": "成功启用 {{count}} 个节点",
+      "batch_enable_error": "批量启用失败",
+      "batch_disable": {
+        "menu": "禁用节点"
+      },
+      "batch_disable_success": "成功禁用 {{count}} 个节点",
+      "batch_disable_error": "批量禁用失败",
       "batch_reset_traffic": {
         "menu": "重置流量",
         "button": "重置 {{count}} 项流量",
@@ -2394,6 +2406,8 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
     "detail": {
       "no_messages": "暂无消息记录",
       "created_at": "创建于",
+      "sender_admin": "管理员",
+      "sender_user": "用户",
       "user_info": "用户信息",
       "traffic_records": "流量记录",
       "order_records": "订单记录",

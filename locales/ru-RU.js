@@ -150,11 +150,13 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
       "nodeShow": "Видимый",
       "nodeEnabled": "Активен",
       "loadTrend": "Тренд нагрузки",
+      "networkTrend": "Скорость сети",
       "noHistory": "История нагрузки пока отсутствует.",
       "openNodeManage": "Открыть управление узлами",
       "addNodeToServer": "Добавить узел на этот сервер",
       "nodeCount": "{{count}} узлов",
-      "nodeEnabledCount": "{{count}} активных"
+      "nodeEnabledCount": "{{count}} активных",
+      "toggleEnabledError": "Не удалось переключить состояние узла"
     },
     "messages": {
       "createSuccess": "Сервер успешно создан",
@@ -897,6 +899,16 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
       },
       "batch_hide_success": "Успешно скрыто {{count}} узлов",
       "batch_hide_error": "Ошибка пакетного скрытия",
+      "batch_enable": {
+        "menu": "Включить узлы"
+      },
+      "batch_enable_success": "Успешно включено {{count}} узлов",
+      "batch_enable_error": "Ошибка пакетного включения",
+      "batch_disable": {
+        "menu": "Отключить узлы"
+      },
+      "batch_disable_success": "Успешно отключено {{count}} узлов",
+      "batch_disable_error": "Ошибка пакетного отключения",
       "batch_reset_traffic": {
         "menu": "Сбросить трафик",
         "button": "Сбросить {{count}} шт.",
@@ -2353,6 +2365,8 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
     "detail": {
       "no_messages": "Сообщений нет",
       "created_at": "Создан",
+      "sender_admin": "Админ",
+      "sender_user": "Пользователь",
       "user_info": "Инфо о пользователе",
       "traffic_records": "История трафика",
       "order_records": "История заказов",

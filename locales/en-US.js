@@ -150,11 +150,13 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       "nodeShow": "Visible",
       "nodeEnabled": "Enabled",
       "loadTrend": "Load Trend",
+      "networkTrend": "Network Speed",
       "noHistory": "No historical load data yet.",
       "openNodeManage": "Open Node Management",
       "addNodeToServer": "Add Node To This Server",
       "nodeCount": "{{count}} nodes",
-      "nodeEnabledCount": "{{count}} enabled"
+      "nodeEnabledCount": "{{count}} enabled",
+      "toggleEnabledError": "Failed to toggle node status"
     },
     "messages": {
       "createSuccess": "Server created successfully",
@@ -902,6 +904,16 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       },
       "batch_hide_success": "Successfully hidden {{count}} nodes",
       "batch_hide_error": "Batch hide failed",
+      "batch_enable": {
+        "menu": "Enable Nodes"
+      },
+      "batch_enable_success": "Successfully enabled {{count}} nodes",
+      "batch_enable_error": "Batch enable failed",
+      "batch_disable": {
+        "menu": "Disable Nodes"
+      },
+      "batch_disable_success": "Successfully disabled {{count}} nodes",
+      "batch_disable_error": "Batch disable failed",
       "batch_reset_traffic": {
         "menu": "Reset traffic",
         "button": "Reset {{count}} traffic",
@@ -2379,6 +2391,8 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
     "detail": {
       "no_messages": "No messages yet",
       "created_at": "Created at",
+      "sender_admin": "Admin",
+      "sender_user": "User",
       "user_info": "User Info",
       "traffic_records": "Traffic Records",
       "order_records": "Order Records",
