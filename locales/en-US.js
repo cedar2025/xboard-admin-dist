@@ -125,7 +125,7 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       "copyFailed": "Copy failed, please copy manually",
       "autoHide": "Auto-hides in {{time}}",
       "resetSuccess": "Token has been reset",
-      "createdHint": "Token is only shown once on creation. Please save it now."
+      "createdHint": "Token generated. You can view it anytime in the server detail page."
     },
     "install": {
       "title": "Install xboard-node",
@@ -156,7 +156,23 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
       "addNodeToServer": "Add Node To This Server",
       "nodeCount": "{{count}} nodes",
       "nodeEnabledCount": "{{count}} enabled",
-      "toggleEnabledError": "Failed to toggle node status"
+      "toggleEnabledError": "Failed to toggle node status",
+      "bindExistingButton": "Bind Existing",
+      "bindExistingTitle": "Bind Existing Nodes",
+      "bindExistingDescription": "Select nodes to bind to \"{{name}}\"",
+      "bindSearchPlaceholder": "Search by name, address, type...",
+      "noUnboundNodes": "No unbound nodes available",
+      "noSearchResults": "No matching nodes",
+      "selectAll": "Select all ({{count}})",
+      "selectedCount": "{{count}} selected",
+      "bindConfirm": "Bind {{count}} nodes",
+      "binding": "Binding...",
+      "bindSuccess": "Successfully bound {{count}} nodes to \"{{name}}\"",
+      "bindFailed": "Binding failed",
+      "unbindNode": "Unbind",
+      "unbindSuccess": "\"{{name}}\" has been unbound",
+      "unbindFailed": "Unbind failed",
+      "cancel": "Cancel"
     },
     "messages": {
       "createSuccess": "Server created successfully",
@@ -988,6 +1004,12 @@ window.XBOARD_TRANSLATIONS['en-US'] = {
         "add": "Add Group",
         "placeholder": "Please select permission groups",
         "empty": "No results found"
+      },
+      "machine": {
+        "label": "Bind to Machine",
+        "placeholder": "Select a machine (optional)",
+        "none": "Standalone",
+        "enabled_hint": "Whether this machine manages the node"
       },
       "host": {
         "label": "Node Address",

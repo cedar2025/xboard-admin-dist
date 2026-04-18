@@ -123,7 +123,7 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
       "copyFailed": "复制失败，请手动复制",
       "autoHide": "{{time}} 后自动隐藏",
       "resetSuccess": "Token 已重置",
-      "createdHint": "Token 仅在创建时显示一次，请立即保存。"
+      "createdHint": "Token 已生成，后续可在服务器详情页中查看。"
     },
     "install": {
       "title": "安装 xboard-node",
@@ -154,7 +154,23 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
       "addNodeToServer": "新增节点到此服务器",
       "nodeCount": "{{count}} 个节点",
       "nodeEnabledCount": "{{count}} 个已激活",
-      "toggleEnabledError": "切换节点状态失败"
+      "toggleEnabledError": "切换节点状态失败",
+      "bindExistingButton": "关联已有节点",
+      "bindExistingTitle": "关联已有节点",
+      "bindExistingDescription": "选择要关联到「{{name}}」的节点",
+      "bindSearchPlaceholder": "搜索节点名称、地址、类型...",
+      "noUnboundNodes": "没有未绑定的节点",
+      "noSearchResults": "没有匹配的节点",
+      "selectAll": "全选（共 {{count}} 个）",
+      "selectedCount": "已选 {{count}} 个",
+      "bindConfirm": "关联 {{count}} 个节点",
+      "binding": "关联中...",
+      "bindSuccess": "成功将 {{count}} 个节点关联到「{{name}}」",
+      "bindFailed": "关联失败",
+      "unbindNode": "取消关联",
+      "unbindSuccess": "已取消「{{name}}」的关联",
+      "unbindFailed": "取消关联失败",
+      "cancel": "取消"
     },
     "messages": {
       "createSuccess": "服务器创建成功",
@@ -957,6 +973,12 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
         "add": "添加权限组",
         "placeholder": "请选择权限组",
         "empty": "未找到结果"
+      },
+      "machine": {
+        "label": "绑定服务器",
+        "placeholder": "选择服务器（可选）",
+        "none": "独立部署",
+        "enabled_hint": "选择是否由此服务器管理该节点"
       },
       "host": {
         "label": "节点地址",

@@ -125,7 +125,7 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
       "copyFailed": "Ошибка копирования",
       "autoHide": "Скроется через {{time}}",
       "resetSuccess": "Токен сброшен",
-      "createdHint": "Токен показывается только при создании. Сохраните его сейчас."
+      "createdHint": "Токен создан. Вы можете просмотреть его в любое время на странице сервера."
     },
     "install": {
       "title": "Установить xboard-node",
@@ -156,7 +156,23 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
       "addNodeToServer": "Добавить узел на этот сервер",
       "nodeCount": "{{count}} узлов",
       "nodeEnabledCount": "{{count}} активных",
-      "toggleEnabledError": "Не удалось переключить состояние узла"
+      "toggleEnabledError": "Не удалось переключить состояние узла",
+      "bindExistingButton": "Привязать существующие",
+      "bindExistingTitle": "Привязать существующие узлы",
+      "bindExistingDescription": "Выберите узлы для привязки к «{{name}}»",
+      "bindSearchPlaceholder": "Поиск по имени, адресу, типу...",
+      "noUnboundNodes": "Нет свободных узлов",
+      "noSearchResults": "Нет совпадений",
+      "selectAll": "Выбрать все ({{count}})",
+      "selectedCount": "{{count}} выбрано",
+      "bindConfirm": "Привязать {{count}} узлов",
+      "binding": "Привязка...",
+      "bindSuccess": "Успешно привязано {{count}} узлов к «{{name}}»",
+      "bindFailed": "Ошибка привязки",
+      "unbindNode": "Отвязать",
+      "unbindSuccess": "«{{name}}» отвязан",
+      "unbindFailed": "Ошибка отвязки",
+      "cancel": "Отмена"
     },
     "messages": {
       "createSuccess": "Сервер успешно создан",
@@ -972,6 +988,12 @@ window.XBOARD_TRANSLATIONS['ru-RU'] = {
         "add": "Добавить группу",
         "placeholder": "Пожалуйста, выберите группы",
         "empty": "Ничего не найдено"
+      },
+      "machine": {
+        "label": "Привязка к серверу",
+        "placeholder": "Выберите сервер (необязательно)",
+        "none": "Автономная",
+        "enabled_hint": "Управлять ли этим узлом с сервера"
       },
       "host": {
         "label": "Адрес узла",
