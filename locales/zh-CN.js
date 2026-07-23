@@ -1547,7 +1547,7 @@ window.XBOARD_TRANSLATIONS['zh-CN'] = {
       },
       "surfboard": {
         "title": "Surfboard 配置模版",
-        "description": "配额 Surfboard 订阅模版"
+        "description": "配置 Surfboard 订阅模版"
       }
     },
     "email_template": {
